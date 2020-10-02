@@ -144,7 +144,6 @@ public class Main extends javax.swing.JFrame {
         POS.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         POS.setForeground(new java.awt.Color(255, 255, 255));
         POS.setText("Account");
-        POS.setPreferredSize(new java.awt.Dimension(91, 27));
         POS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 POSActionPerformed(evt);
@@ -154,7 +153,7 @@ public class Main extends javax.swing.JFrame {
         REPORT.setBackground(new java.awt.Color(153, 153, 255));
         REPORT.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         REPORT.setForeground(new java.awt.Color(255, 255, 255));
-        REPORT.setText("Reports");
+        REPORT.setText("Inventory");
         REPORT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 REPORTActionPerformed(evt);
@@ -164,7 +163,7 @@ public class Main extends javax.swing.JFrame {
         STM.setBackground(new java.awt.Color(153, 153, 255));
         STM.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         STM.setForeground(new java.awt.Color(255, 255, 255));
-        STM.setText("Stock Management");
+        STM.setText("Staff");
         STM.setPreferredSize(new java.awt.Dimension(91, 27));
         STM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,7 +174,7 @@ public class Main extends javax.swing.JFrame {
         SPM.setBackground(new java.awt.Color(153, 153, 255));
         SPM.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         SPM.setForeground(new java.awt.Color(255, 255, 255));
-        SPM.setText("Supplier Management");
+        SPM.setText("Payment");
         SPM.setPreferredSize(new java.awt.Dimension(91, 27));
         SPM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -290,6 +290,7 @@ public class HomePage extends javax.swing.JFrame {
         inp.setBounds(290, 150, 200, 30);
 
         time.setEditable(false);
+        time.setBackground(new java.awt.Color(255, 255, 255));
         time.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 timeActionPerformed(evt);
@@ -300,6 +301,7 @@ public class HomePage extends javax.swing.JFrame {
         time.getAccessibleContext().setAccessibleParent(time);
 
         date.setEditable(false);
+        date.setBackground(new java.awt.Color(255, 255, 255));
         date.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dateActionPerformed(evt);
@@ -348,7 +350,7 @@ public class HomePage extends javax.swing.JFrame {
 
     private void bfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bfActionPerformed
         // TODO add your handling code here:
-       this.dispose();
+      this.dispose();
       MainMenu mm = new MainMenu();
       mm.setVisible(true);
     }//GEN-LAST:event_bfActionPerformed

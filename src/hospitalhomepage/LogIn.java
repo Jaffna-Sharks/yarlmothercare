@@ -2,6 +2,8 @@
 package hospitalhomepage;
 
 import hospitalhomepage.HomePage;
+import hospitalhomepage.HomePage;
+import hospitalhomepage.MySqlConnect;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -157,7 +157,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Terminator Two" size="36" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="LAB MANAGEMENT"/>
+                <Property name="text" type="java.lang.String" value="ada"/>
               </Properties>
             </Component>
           </SubComponents>

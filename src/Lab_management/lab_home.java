@@ -66,7 +66,7 @@ public class lab_home extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Terminator Two", 1, 36)); // NOI18N
-        jLabel1.setText("LAB MANAGEMENT");
+        jLabel1.setText("ada");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

@@ -614,6 +614,8 @@ public class Accounts extends javax.swing.JFrame {
                 .addContainerGap(130, Short.MAX_VALUE))
         );
 
+        jButton5.setBackground(new java.awt.Color(0, 0, 153));
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Search");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -623,6 +625,8 @@ public class Accounts extends javax.swing.JFrame {
 
         jLabel28.setText("Date");
 
+        jButton6.setBackground(new java.awt.Color(0, 0, 153));
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Insert");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -630,6 +634,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setBackground(new java.awt.Color(0, 0, 153));
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Update");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -637,6 +643,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton8.setBackground(new java.awt.Color(0, 0, 153));
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Delete");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -644,6 +652,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton9.setBackground(new java.awt.Color(0, 0, 153));
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("Refresh");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -651,6 +661,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton12.setBackground(new java.awt.Color(0, 0, 153));
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setText("Calculate");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -658,6 +670,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton13.setBackground(new java.awt.Color(0, 0, 153));
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setText("Graph");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -807,6 +821,8 @@ public class Accounts extends javax.swing.JFrame {
 
         jLabel68.setText(":");
 
+        cmd_account_search.setBackground(new java.awt.Color(0, 0, 153));
+        cmd_account_search.setForeground(new java.awt.Color(255, 255, 255));
         cmd_account_search.setText("Search");
         cmd_account_search.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -847,6 +863,8 @@ public class Accounts extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jButton10.setBackground(new java.awt.Color(0, 0, 153));
+        jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText("Report");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -854,6 +872,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 153));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -861,6 +881,8 @@ public class Accounts extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 153));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Exit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

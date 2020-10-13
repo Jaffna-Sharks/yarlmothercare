@@ -944,7 +944,7 @@ public class Accounts extends javax.swing.JFrame {
         jTextField1.setFont(new java.awt.Font("Megadeth", 0, 48)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("FINANCE MANAGEMENT");
+        jTextField1.setText("s");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);

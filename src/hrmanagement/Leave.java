@@ -284,7 +284,7 @@ public class Leave extends javax.swing.JFrame {
 
         jLabel16.setText("To");
 
-        bt_apply.setText("Apply");
+        bt_apply.setText("gimmi");
         bt_apply.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt_applyActionPerformed(evt);

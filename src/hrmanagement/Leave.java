@@ -241,7 +241,7 @@ public class Leave extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Monospaced", 1, 24)); // NOI18N
-        jLabel1.setText("Leave & OT");
+        jLabel1.setText("edit");
 
         jTabbedPane1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
 

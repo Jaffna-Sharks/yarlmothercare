@@ -672,7 +672,7 @@ public class LabTest extends javax.swing.JFrame {
                             .addComponent(leftArrowAtLab, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(48, 48, 48)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -757,6 +757,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setBackground(new java.awt.Color(0, 0, 153));
         jButton6.setText("Search");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -819,6 +820,7 @@ public class LabTest extends javax.swing.JFrame {
                 .addGap(124, 124, 124))
         );
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 153));
         jButton2.setFont(new java.awt.Font("Rockwell", 3, 18)); // NOI18N
         jButton2.setText("UPDATE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -827,6 +829,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 153));
         jButton1.setFont(new java.awt.Font("Rockwell", 3, 18)); // NOI18N
         jButton1.setText("ADD");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -835,6 +838,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(0, 0, 153));
         jButton4.setFont(new java.awt.Font("Rockwell", 3, 18)); // NOI18N
         jButton4.setText("CLEAR");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -843,6 +847,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(0, 0, 153));
         jButton3.setFont(new java.awt.Font("Rockwell", 3, 18)); // NOI18N
         jButton3.setText("PRINT");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -895,7 +900,7 @@ public class LabTest extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(449, 449, 449)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(717, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -930,11 +935,11 @@ public class LabTest extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane5)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(18, 18, 18)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -952,8 +957,8 @@ public class LabTest extends javax.swing.JFrame {
                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(80, Short.MAX_VALUE))
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(87, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Tests", jPanel2);
@@ -969,6 +974,7 @@ public class LabTest extends javax.swing.JFrame {
         tFee.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         tFee.setText("Test Fee");
 
+        jButton10.setBackground(new java.awt.Color(0, 0, 153));
         jButton10.setText("Search");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
@@ -1020,7 +1026,7 @@ public class LabTest extends javax.swing.JFrame {
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(tFee)
                     .addComponent(tFeeAtLab, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(95, Short.MAX_VALUE))
+                .addContainerGap(101, Short.MAX_VALUE))
         );
 
         testtbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -1038,9 +1044,11 @@ public class LabTest extends javax.swing.JFrame {
 
         jPanel6.setBackground(new java.awt.Color(204, 204, 204));
 
+        jButton5.setBackground(new java.awt.Color(0, 0, 153));
         jButton5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jButton5.setText("CLEAR");
 
+        jButton7.setBackground(new java.awt.Color(0, 0, 153));
         jButton7.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jButton7.setText("UPDATE");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -1049,6 +1057,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        deletTestNAME.setBackground(new java.awt.Color(0, 0, 153));
         deletTestNAME.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         deletTestNAME.setText("DELETE");
         deletTestNAME.addActionListener(new java.awt.event.ActionListener() {
@@ -1057,6 +1066,7 @@ public class LabTest extends javax.swing.JFrame {
             }
         });
 
+        add.setBackground(new java.awt.Color(0, 0, 153));
         add.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         add.setText("ADD");
         add.addActionListener(new java.awt.event.ActionListener() {

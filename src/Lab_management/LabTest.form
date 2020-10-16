@@ -86,11 +86,11 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jScrollPane5" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
-                              <Component id="jPanel3" max="32767" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="jPanel5" max="32767" attributes="0"/>
                                   <Component id="jPanel4" max="32767" attributes="0"/>
@@ -115,8 +115,8 @@
                           <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane5" min="-2" pref="138" max="-2" attributes="0"/>
-                      <EmptySpace pref="80" max="32767" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace pref="87" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -201,7 +201,7 @@
                                   <Component id="jScrollPane1" min="-2" pref="167" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="68" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -594,6 +594,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton6">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Search"/>
                   </Properties>
                   <Events>
@@ -656,6 +659,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Rockwell" size="18" style="3"/>
                     </Property>
@@ -667,6 +673,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton1">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Rockwell" size="18" style="3"/>
                     </Property>
@@ -678,6 +687,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton4">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Rockwell" size="18" style="3"/>
                     </Property>
@@ -689,6 +701,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton3">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Rockwell" size="18" style="3"/>
                     </Property>
@@ -708,7 +723,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="449" max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" pref="119" max="-2" attributes="0"/>
-                          <EmptySpace pref="717" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -905,7 +920,7 @@
                               <Component id="tFee" min="-2" max="-2" attributes="0"/>
                               <Component id="tFeeAtLab" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="95" max="32767" attributes="0"/>
+                          <EmptySpace pref="101" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -943,6 +958,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton10">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Search"/>
                   </Properties>
                 </Component>
@@ -1012,6 +1030,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="jButton5">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="24" style="1"/>
                     </Property>
@@ -1020,6 +1041,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton7">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="24" style="1"/>
                     </Property>
@@ -1031,6 +1055,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="deletTestNAME">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="24" style="1"/>
                     </Property>
@@ -1042,6 +1069,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="add">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="99" green="0" red="0" type="rgb"/>
+                    </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="24" style="1"/>
                     </Property>

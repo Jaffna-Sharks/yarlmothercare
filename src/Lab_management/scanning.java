@@ -359,7 +359,7 @@ public class scanning extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         TypeAtLab = new javax.swing.JLabel();
         Ref_Phy_IDAtLab = new javax.swing.JLabel();
-        TypeOfScn_AtLab = new javax.swing.JComboBox<String>();
+        TypeOfScn_AtLab = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
@@ -387,7 +387,7 @@ public class scanning extends javax.swing.JFrame {
         age = new javax.swing.JTextField();
         search = new javax.swing.JTextField();
         jButton6 = new javax.swing.JButton();
-        gender = new javax.swing.JComboBox<String>();
+        gender = new javax.swing.JComboBox<>();
         jLabel9 = new javax.swing.JLabel();
         pidAtLab = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -425,7 +425,7 @@ public class scanning extends javax.swing.JFrame {
         Ref_Phy_IDAtLab.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         Ref_Phy_IDAtLab.setText("Scanned date");
 
-        TypeOfScn_AtLab.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select", "ElectroCardioGraphy(ECG)", "Ultrasound (US)", "Magnetic Resonance (MR)", "Endoscopy (ES)", "Computed Radiography (CR)" }));
+        TypeOfScn_AtLab.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "ElectroCardioGraphy(ECG)", "Ultrasound (US)", "Magnetic Resonance (MR)", "Endoscopy (ES)", "Computed Radiography (CR)" }));
         TypeOfScn_AtLab.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 TypeOfScn_AtLabItemStateChanged(evt);
@@ -654,7 +654,7 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        gender.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female" }));
+        gender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female" }));
 
         jLabel9.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jLabel9.setText("Patient ID");
@@ -805,11 +805,11 @@ public class scanning extends javax.swing.JFrame {
                         .addGap(49, 49, 49)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(304, 304, 304)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(76, 76, 76))
             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -829,13 +829,14 @@ public class scanning extends javax.swing.JFrame {
                             .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 442, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 37, Short.MAX_VALUE))))
+                                .addGap(0, 5, Short.MAX_VALUE))))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(55, 55, 55)
-                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(38, 38, 38)
+                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(66, 66, 66))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 291, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("Scanning", jPanel3);

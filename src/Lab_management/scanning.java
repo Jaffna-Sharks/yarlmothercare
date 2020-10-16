@@ -419,12 +419,13 @@ public class scanning extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
-        TypeAtLab.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        TypeAtLab.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         TypeAtLab.setText("Type of scan");
 
-        Ref_Phy_IDAtLab.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        Ref_Phy_IDAtLab.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         Ref_Phy_IDAtLab.setText("Scanned date");
 
+        TypeOfScn_AtLab.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         TypeOfScn_AtLab.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "ElectroCardioGraphy(ECG)", "Ultrasound (US)", "Magnetic Resonance (MR)", "Endoscopy (ES)", "Computed Radiography (CR)" }));
         TypeOfScn_AtLab.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -444,17 +445,17 @@ public class scanning extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
 
-        jLabel8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel8.setText("Scan ID");
 
-        jLabel10.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel10.setText("Remark");
 
         remark_AtLab.setColumns(20);
         remark_AtLab.setRows(5);
         jScrollPane3.setViewportView(remark_AtLab);
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel1.setText("Refered Physician Name");
 
         refPhy_AtLab.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -463,9 +464,11 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
         jLabel7.setText("Payment");
 
+        ScSearch.setBackground(new java.awt.Color(0, 0, 153));
+        ScSearch.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         ScSearch.setText("Search");
         ScSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -473,6 +476,7 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
+        scnid.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         scnid.setText("scnid");
 
         scDate_AtLab.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -647,7 +651,8 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(0, 204, 204));
+        jButton6.setBackground(new java.awt.Color(0, 0, 153));
+        jButton6.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jButton6.setText("Search");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -734,8 +739,8 @@ public class scanning extends javax.swing.JFrame {
             .addGap(0, 392, Short.MAX_VALUE)
         );
 
-        jButton1.setBackground(new java.awt.Color(0, 204, 204));
-        jButton1.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(0, 0, 153));
+        jButton1.setFont(new java.awt.Font("Rockwell", 3, 24)); // NOI18N
         jButton1.setText("ADD");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -743,8 +748,8 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(0, 204, 204));
-        jButton2.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(0, 0, 153));
+        jButton2.setFont(new java.awt.Font("Rockwell", 3, 24)); // NOI18N
         jButton2.setText("EDIT");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -752,8 +757,8 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(0, 204, 204));
-        jButton5.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton5.setBackground(new java.awt.Color(0, 0, 153));
+        jButton5.setFont(new java.awt.Font("Rockwell", 3, 24)); // NOI18N
         jButton5.setText("CLEAR");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -761,8 +766,8 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(0, 204, 204));
-        jButton3.setFont(new java.awt.Font("MV Boli", 1, 24)); // NOI18N
+        jButton3.setBackground(new java.awt.Color(0, 0, 153));
+        jButton3.setFont(new java.awt.Font("Rockwell", 3, 24)); // NOI18N
         jButton3.setText("DELETE");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -843,7 +848,7 @@ public class scanning extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
         jLabel14.setText("Scan Fee");
 
-        jButton7.setBackground(new java.awt.Color(0, 204, 204));
+        jButton7.setBackground(new java.awt.Color(0, 0, 153));
         jButton7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jButton7.setText("Search");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -963,7 +968,7 @@ public class scanning extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(tblAddScan);
 
-        NAdd.setBackground(new java.awt.Color(0, 204, 204));
+        NAdd.setBackground(new java.awt.Color(0, 0, 153));
         NAdd.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         NAdd.setText("ADD");
         NAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -972,7 +977,7 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton9.setBackground(new java.awt.Color(0, 204, 204));
+        jButton9.setBackground(new java.awt.Color(0, 0, 153));
         jButton9.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton9.setText("UPDATE");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -981,7 +986,7 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton10.setBackground(new java.awt.Color(0, 204, 204));
+        jButton10.setBackground(new java.awt.Color(0, 0, 153));
         jButton10.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton10.setText("DELETE");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -990,7 +995,7 @@ public class scanning extends javax.swing.JFrame {
             }
         });
 
-        jButton8.setBackground(new java.awt.Color(0, 204, 204));
+        jButton8.setBackground(new java.awt.Color(0, 0, 153));
         jButton8.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton8.setText("CLEAR");
         jButton8.addActionListener(new java.awt.event.ActionListener() {

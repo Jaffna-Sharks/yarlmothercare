@@ -241,7 +241,7 @@ public class Leave extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Monospaced", 1, 24)); // NOI18N
-        jLabel1.setText("edit");
+        jLabel1.setText("lEAVE & OT");
 
         jTabbedPane1.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
 
@@ -284,13 +284,15 @@ public class Leave extends javax.swing.JFrame {
 
         jLabel16.setText("To");
 
-        bt_apply.setText("gimmi");
+        bt_apply.setBackground(new java.awt.Color(0, 0, 153));
+        bt_apply.setText("Apply");
         bt_apply.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt_applyActionPerformed(evt);
             }
         });
 
+        bt_cancel.setBackground(new java.awt.Color(0, 0, 153));
         bt_cancel.setText("Cancel");
         bt_cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -317,6 +319,7 @@ public class Leave extends javax.swing.JFrame {
         e_to.setForeground(new java.awt.Color(255, 0, 0));
         e_to.setText("ERROR");
 
+        bt_edit.setBackground(new java.awt.Color(0, 0, 153));
         bt_edit.setText("Edit");
         bt_edit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -324,6 +327,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_delete.setBackground(new java.awt.Color(0, 0, 153));
         bt_delete.setText("Delete");
         bt_delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -331,6 +335,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_leave.setBackground(new java.awt.Color(0, 0, 153));
         bt_leave.setText("Search");
         bt_leave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -352,6 +357,7 @@ public class Leave extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(leave);
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 153));
         jButton2.setText("Report");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -569,6 +575,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_applyl.setBackground(new java.awt.Color(0, 0, 153));
         bt_applyl.setText("Apply");
         bt_applyl.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -576,6 +583,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_cancell.setBackground(new java.awt.Color(0, 0, 153));
         bt_cancell.setText("Cancel");
         bt_cancell.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -593,6 +601,7 @@ public class Leave extends javax.swing.JFrame {
         e_amount.setForeground(new java.awt.Color(255, 0, 0));
         e_amount.setText("ERROR");
 
+        bt_editl.setBackground(new java.awt.Color(0, 0, 153));
         bt_editl.setText("Edit");
         bt_editl.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -600,6 +609,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_deletel.setBackground(new java.awt.Color(0, 0, 153));
         bt_deletel.setText("Delete");
         bt_deletel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -607,6 +617,7 @@ public class Leave extends javax.swing.JFrame {
             }
         });
 
+        bt_ot.setBackground(new java.awt.Color(0, 0, 153));
         bt_ot.setText("Search");
         bt_ot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -748,6 +759,7 @@ public class Leave extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("OT", jPanel4);
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 153));
         jButton1.setFont(new java.awt.Font("Ebrima", 1, 14)); // NOI18N
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

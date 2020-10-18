@@ -74,6 +74,7 @@ public class OverView extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(50, 630, 150, 41);
 
+        jButton6.setBackground(new java.awt.Color(204, 204, 204));
         jButton6.setFont(new java.awt.Font("Ebrima", 1, 24)); // NOI18N
         jButton6.setText("Employee Details");
         jButton6.addActionListener(new java.awt.event.ActionListener() {

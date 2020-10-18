@@ -130,6 +130,7 @@ public class Salary extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 153));
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,6 +162,7 @@ public class Salary extends javax.swing.JFrame {
         jLabel43.setForeground(new java.awt.Color(255, 51, 51));
         jLabel43.setText("Net Salary");
 
+        bt_submit.setBackground(new java.awt.Color(0, 0, 153));
         bt_submit.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
         bt_submit.setText("Submit");
         bt_submit.addActionListener(new java.awt.event.ActionListener() {
@@ -169,6 +171,7 @@ public class Salary extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setBackground(new java.awt.Color(0, 0, 153));
         jButton5.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
         jButton5.setText("Cancel");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -186,6 +189,7 @@ public class Salary extends javax.swing.JFrame {
             }
         });
 
+        bt_search.setBackground(new java.awt.Color(0, 0, 153));
         bt_search.setText("Search");
         bt_search.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
